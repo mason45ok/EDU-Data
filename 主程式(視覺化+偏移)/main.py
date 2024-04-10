@@ -45,7 +45,7 @@ class AudioBar:
         pygame.draw.rect(screen, self.color, (self.x, self.y + self.max_height - self.height, self.width, self.height))
 
 
-filename = "output.wav"
+filename = "C:/Users/mason/Desktop/作業/科技系/教育大數據專題製作/EDU-Data/output/output.wav"
 
 time_series, sample_rate = librosa.load(filename)  # getting information from the file
 
